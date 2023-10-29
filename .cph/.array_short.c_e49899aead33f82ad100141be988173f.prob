@@ -1,0 +1,1 @@
+{"name":"Local: array_short","url":"e:\\phitron\\problem_solve\\array_short.c","tests":[{"id":1698249018225,"input":"5\n60 30 40 70 10","output":"10 30 40 60 70"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\phitron\\problem_solve\\array_short.c","group":"local","local":true}
