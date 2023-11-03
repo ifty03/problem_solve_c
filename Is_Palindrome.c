@@ -4,7 +4,7 @@
 int is_palindrome(char *S)
 {
     int len = strlen(S);
-    char c[1001];
+    char c[1000];
     strcpy(c, S);
     for (int i = 1; i <= len; i++)
     {
@@ -29,8 +29,8 @@ int is_palindrome(char *S)
 }
 int main()
 {
-    char S[1001];
-    gets(S);
+    char S[1000];
+    fgets(S,1000,stdin);
 
     int cmp = is_palindrome(S);
     if (cmp == 0)
