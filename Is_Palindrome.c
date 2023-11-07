@@ -31,7 +31,6 @@ int main()
 {
     char S[1000];
     fgets(S,1000,stdin);
-
     int cmp = is_palindrome(S);
     if (cmp == 0)
     {
