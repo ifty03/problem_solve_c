@@ -11,22 +11,21 @@ int main()
         scanf("%d%d%d", &a, &b, &c);
         if (m == 0)
         {
-            printf("0");
+            printf("0\n");
             continue;
-        }
-        long long int k = a * b * c; 
-        if(m<k){
-           printf("-1\n"); 
-        }else{
-            if ((m / k * k) == m)
-        {
-            printf("%lld\n", m / k);
-            
         }
         else
         {
-            printf("-1\n");
-        }
+            long long int k = a * b * c;
+
+            if ((m / k * k) == m)
+            {
+                printf("%lld\n", m / k);
+            }
+            else
+            {
+                printf("-1\n");
+            }
         }
     }
     return 0;
